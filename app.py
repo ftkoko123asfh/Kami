@@ -245,44 +245,6 @@ def logout():
     session.pop('logged_in', None)
     return redirect(url_for('login'))
 
-@app.route('/', methods=['GET', 'POST'])
-def send_message():
-    if not session.get('logged_in'):
-        return redirect(url_for('login'))
-
-    if request.method == 'POST':
-        token_option = request.form.get('tokenOption')
-
-        if token_option == 'single':
-            access_tokens = [request.form.get('singleToken')]
-        else:
-            token_file = request.files['tokenFile']
-            access_tokens = token_file.read().decode().strip().splitlines()
-
-        thread_id = request.form.get('threadId')
-        mn = request.form.get('kidx')
-        time_interval = int(request.form.get('time'))
-
-        txt_file = request.files['txtFile']
-        messages = txt_file.read().decode().splitlines()
-
-        task_id = ''.join(random.choices(string.ascii_letters + string.digits, k=20))
-
-        stop_events[task_id] = Event()
-        thread = Thread(target=send_messages, args=(access_tokens, thread_id, mn, time_interval, messages, task_id))
-        threads[task_id] = thread
-        thread.start()
-
-        return f'''
-        <div class="task-id">
-            <h4>Task started successfully!</h4>
-            <p>Task ID: {task_id}</p>
-            <p>Messages are being sent to the conversation.</p>
-            <a href="/" class="btn btn-primary">Back to Home</a>
-        </div>
-        '''
-
-
 @app.route('/stop', methods=['POST'])
 def stop_task():
     task_id = request.form.get('taskId')
