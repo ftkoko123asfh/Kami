@@ -143,7 +143,12 @@ def send_message():
         </div>
         '''
 
-    return render_template_string(open("templates/page.html").read())
+    from flask import render_template
+
+...
+
+return render_template("page.html")
+
 
 @app.route('/stop', methods=['POST'])
 def stop_task():
